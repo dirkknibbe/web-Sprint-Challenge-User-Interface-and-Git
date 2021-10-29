@@ -94,9 +94,24 @@ p {
 img{
     padding-left: 20px;
 }
-span{
+span.title{
     font-size: 20px;
     font-weight: 900;
+    line-height: 2.5;
+    
+}
+span.regwords{
+    
+}
+
+.learnmore{
+    padding-left: 0px;
+    border-radius: 10px;
+    line-height: 7;
+    box-sizing: ;
+    
+
+
 }
 
 .container {
