@@ -36,7 +36,7 @@ table {
     margin:0;
     box-sizing:border-box;
     max-width:100%;
-    border:1px solid grey;
+    border: 0px solid grey;
 }
 
 html, body {
@@ -98,20 +98,13 @@ span.title{
     font-size: 20px;
     font-weight: 900;
     line-height: 2.5;
-    
 }
-span.regwords{
-    
-}
-
 .learnmore{
-    padding-left: 0px;
-    border-radius: 10px;
+    padding: 11px;
     line-height: 7;
-    box-sizing: ;
-    
-
-
+    box-sizing: border-box;
+    border-radius: 10px;
+    border:2px solid black;
 }
 
 .container {
@@ -122,10 +115,32 @@ span.regwords{
     display: flex;
     flex-flow: wrap;
     align-items: left;
+    
+}
+.about{
+    border-bottom: 1px dotted black;
+    margin-bottom: 40px;
+}
+.plan1{
+    border-bottom: 1px dotted black;
+    margin-bottom: 40px;
+}
+.plan2{
+    border-bottom: 1px dotted black;
+    margin-bottom: 40px;
+}
+.plan3{
+    border-bottom: 1px dotted black;
+    margin-bottom: 40px;
+}
+.plan4{
+    border-bottom: 1px dotted black;
+    margin-bottom: 40px;
 }
 footer {
     width: 100%;
     background: black;
+    margin-top: 20px;
 }
 
 footer nav {

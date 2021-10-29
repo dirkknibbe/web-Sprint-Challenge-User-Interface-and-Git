@@ -36,7 +36,7 @@ table {
     margin:0;
     box-sizing:border-box;
     max-width:100%;
-    border:1px solid grey;
+    border:0px solid grey;
 }
 
 html, body {
@@ -149,7 +149,9 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
+.box{
+    color:blueviolet;
+}
 footer {
     width: 100%;
     background: black;
